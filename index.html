@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Web App</title>
+    <link rel="stylesheet" href="./resources/style.css" />
+    <script src="./resources/script.js" defer></script>
+</head>
+
+<body>
+    <section class="instructions">
+        <h1>Welcome to Rock Paper Scissors</h1>
+        <p>
+            You are presented with three game choices: ROCK, PAPER AND SCISSORS.
+        </p>
+        <p>The following instructions will guide you on how to play the game</p>
+        <div class="instruct">
+            <ul>
+                <li>If Rock beats Scissors</li>
+                <li>If Scissors beats Paper</li>
+                <li>If Paper beats Rock</li>
+                <li>
+                    If both players select the same option, then its a tie and the
+                    players replay the game again
+                </li>
+                <li>After two rounds a winner is declared</li>
+            </ul>
+            <h2>GOOD LUCK</h2>
+            <!-- <hr /> -->
+        </div>
+    </section>
+
+    <!-- play the game -->
+    <section class="playTheGame">
+        <h2 class="choices">Select your choice:</h2>
+        <div class="buttons">
+            <button id="rock">&#x1F44A;</button>
+            <button id="paper">&#X1f590;</button>
+            <button id="scissors">&#x270c;</button>
+        </div>
+        <h2>Round : <span class="roundNo">0</span></h2>
+        <h2 class="scores">
+            Player Score: <span class="playerScore"> 0</span> Computer Score:
+            <span class="compScore"> 0</span>
+        </h2>
+        <h2 id="wonOrLose"></h2>
+        <h2 id="result"></h2>
+    </section>
+</body>
+
+</html>
