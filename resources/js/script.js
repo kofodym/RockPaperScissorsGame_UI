@@ -17,7 +17,12 @@ let countComputer = 0;
 // Create an iteration through each of the buttons using forEach
 // Add an event listener that includes the click event handler and an arrow function that displays a message when any of the buttons is clicked
 buttons.forEach((button) => {
-  button.addEventListener("click", () => {});
+  button.addEventListener("click", () => {
+    // Call the playRound function and pass the clicked button
+    playRound(button);
+    //next enter the text
+    // result.textContent = results;
+  });
 });
 
 // Step2: Randomly select computer choice
@@ -69,8 +74,6 @@ function playGame(userInput, computerInput) {
   }
 }
 
-
-
 // Function to play one round of the game
 function playRound(button) {
   // Get the user's choice from the button's ID
@@ -80,11 +83,13 @@ function playRound(button) {
 
   // Play one round of the game
   playGame(userChoice, computerChoice);
-
   // Increment the round counter
   round++;
   // Update the HTML elements with the round and scores
   roundNo.textContent = round;
   compScore.textContent = countComputer;
   playerScore.textContent = countUser;
+
+
+  
 }
