@@ -90,7 +90,7 @@ function playRound(button) {
   compScore.textContent = countComputer;
   playerScore.textContent = countUser;
 
- // If it's the second round, declare the overall winner
+  // If it's the second round, declare the overall winner
   if (round === 2) {
     if (countUser > countComputer) {
       overalWinner.textContent = "OVERALL YOU WON! AFTER THE TWO ROUNDS";
@@ -114,10 +114,10 @@ function playRound(button) {
     }
   }
 
-    // Reset values if the game has been played for two rounds
+  // Reset values if the game has been played for two rounds
   if (round === 3) {
     round = 0;
     countUser = 0;
     countComputer = 0;
-
+  }
 }
