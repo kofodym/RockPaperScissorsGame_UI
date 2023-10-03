@@ -9,6 +9,11 @@ const compScore = document.querySelector(".compScore");
 const wonOrLose = document.querySelector("#wonOrLose");
 const overalWinner = document.querySelector("#overalWinner");
 
+// Initialize the round, countUser, and countComputer to 0
+let round = 0;
+let countUser = 0;
+let countComputer = 0;
+
 // Create an iteration through each of the buttons using forEach
 // Add an event listener that includes the click event handler and an arrow function that displays a message when any of the buttons is clicked
 buttons.forEach((button) => {
