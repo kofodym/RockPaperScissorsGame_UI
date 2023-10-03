@@ -22,7 +22,7 @@ function getComputerChoice() {
   const symbols = ["rock", "paper", "scissors"];
   const selectCompChoice = Math.floor(Math.random() * symbols.length);
 
-  // Return the choice
+  // Return the random choice
   return symbols[selectCompChoice];
 }
 
