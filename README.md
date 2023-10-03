@@ -31,7 +31,7 @@ A Rock Paper Scissors Game played via a user interface displaying skills learned
 8. Create the playGame function that Plays the game by comparing user_choice to computer_choice, and displays a message in the HTML field.
 9. Initialize the round, countuser, and countComputer to 0
 10. Add an increment in the playGame function for computer and user accordingly
-11. Create a function called round to call the game and play a round
+11. Create a function called playRound to call the game and play a round
 12. Enter arguments for the user and computer
 13. Increment the round counter & Update the HTML elements with the round and scores
 14. In the eventlistener, Call the playRound function and pass the clicked button

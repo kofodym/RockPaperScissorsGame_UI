@@ -68,3 +68,13 @@ function playGame(userInput, computerInput) {
     return "lose";
   }
 }
+
+
+
+// Function to play one round of the game
+function playRound(button) {
+  // Get the user's choice from the button's ID
+  const userChoice = button.id;
+  // Get the computer's random choice
+  const computerChoice = getComputerChoice();
+}
