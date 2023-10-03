@@ -90,6 +90,29 @@ function playRound(button) {
   compScore.textContent = countComputer;
   playerScore.textContent = countUser;
 
+ // If it's the second round, declare the overall winner
+  if (round === 2) {
+    if (countUser > countComputer) {
+      overalWinner.textContent = "OVERALL YOU WON! AFTER THE TWO ROUNDS";
 
-  
+      overalWinner.setAttribute(
+        "style",
+        "color:white; background-color:#044319; width: 600px; height:40px"
+      );
+    } else if (countUser < countComputer) {
+      overalWinner.textContent = "OVERALL YOU LOSE! SORRY, TRY AGAIN.";
+      overalWinner.setAttribute(
+        "style",
+        "color:white; background-color:red; width: 600px; height:40px"
+      );
+    } else {
+      overalWinner.textContent = "OVERALL RESULT IS A TIE!";
+      overalWinner.setAttribute(
+        "style",
+        "color:white; background-color:#062253; width: 600px; height:40px"
+      );
+    }
+  }
+
+
 }
