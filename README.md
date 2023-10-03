@@ -20,7 +20,7 @@ A Rock Paper Scissors Game played via a user interface displaying skills learned
             </ul>
 
 
-#Algorithm Used
+<h2>Algorithm Used</h2>
 1. Create your HTML structure
 2. Add CSS to your HTML arranging how your game will look
 3. Add a js file, and create a variable that will make a choice by selecting from a list of buttons(choices)
