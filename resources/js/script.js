@@ -80,4 +80,11 @@ function playRound(button) {
 
   // Play one round of the game
   playGame(userChoice, computerChoice);
+
+  // Increment the round counter
+  round++;
+  // Update the HTML elements with the round and scores
+  roundNo.textContent = round;
+  compScore.textContent = countComputer;
+  playerScore.textContent = countUser;
 }
