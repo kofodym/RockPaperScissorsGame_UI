@@ -114,5 +114,10 @@ function playRound(button) {
     }
   }
 
+    // Reset values if the game has been played for two rounds
+  if (round === 3) {
+    round = 0;
+    countUser = 0;
+    countComputer = 0;
 
 }
