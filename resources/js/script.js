@@ -17,4 +17,12 @@ buttons.forEach((button) => {
   });
 });
 
+// Step2: Randomly select computer choice
+function getComputerChoice() {
+  const symbols = ["rock", "paper", "scissors"];
+  const selectCompChoice = Math.floor(Math.random() * symbols.length);
+
+  // Return the choice
+  return symbols[selectCompChoice];
+}
 
