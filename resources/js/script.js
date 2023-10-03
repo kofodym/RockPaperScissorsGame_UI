@@ -77,4 +77,7 @@ function playRound(button) {
   const userChoice = button.id;
   // Get the computer's random choice
   const computerChoice = getComputerChoice();
+
+  // Play one round of the game
+  playGame(userChoice, computerChoice);
 }
