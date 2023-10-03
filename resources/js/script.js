@@ -119,5 +119,15 @@ function playRound(button) {
     round = 0;
     countUser = 0;
     countComputer = 0;
+
+     // Update the HTML elements with the round and scores
+    roundNo.textContent = "RESET";
+    compScore.textContent = 0;
+    playerScore.textContent = 0;
+    wonOrLose.textContent = "";
+    overalWinner.textContent = "";
+    overalWinner.setAttribute("style", "");
+    choices.textContent = "Select a choice to play another game";
+ 
   }
 }

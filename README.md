@@ -37,4 +37,4 @@ A Rock Paper Scissors Game played via a user interface displaying skills learned
 14. In the eventlistener, Call the playRound function and pass the clicked button
 15. If it's the second round, declare the overall winner
 16. Create an if statement to Reset values if the game has been played for two rounds
-17. Update the HTML elements with the round and scores
+17. Update the HTML elements with the round, scores to 0 and text inputs to empty 
