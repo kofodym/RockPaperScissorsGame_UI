@@ -120,7 +120,7 @@ function playRound(button) {
     countUser = 0;
     countComputer = 0;
 
-     // Update the HTML elements with the round and scores
+    // Update the HTML elements with the round and scores
     roundNo.textContent = "RESET";
     compScore.textContent = 0;
     playerScore.textContent = 0;
@@ -128,6 +128,5 @@ function playRound(button) {
     overalWinner.textContent = "";
     overalWinner.setAttribute("style", "");
     choices.textContent = "Select a choice to play another game";
- 
   }
 }
