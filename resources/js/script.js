@@ -17,9 +17,7 @@ let countComputer = 0;
 // Create an iteration through each of the buttons using forEach
 // Add an event listener that includes the click event handler and an arrow function that displays a message when any of the buttons is clicked
 buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-
-  });
+  button.addEventListener("click", () => {});
 });
 
 // Step2: Randomly select computer choice
@@ -70,5 +68,3 @@ function playGame(userInput, computerInput) {
     return "lose";
   }
 }
-
-
