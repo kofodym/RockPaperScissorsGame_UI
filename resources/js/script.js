@@ -13,9 +13,8 @@ const overalWinner = document.querySelector("#overalWinner");
 // Add an event listener that includes the click event handler and an arrow function that displays a message when any of the buttons is clicked
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
-    // Call the playRound function and pass the clicked button
-    playRound(button);
-    //next enter the text
-    // result.textContent = results;
+
   });
 });
+
+
