@@ -16,7 +16,6 @@ h1 {
     font-size: 2rem;
 }
 
-
 ul {
     padding-left: 70px;
 }
@@ -30,9 +29,9 @@ ul {
     margin-bottom: 10px;
     height: 43vh;
 }
-#result{
+
+#result {
     background-color: rgb(101, 190, 242);
-   
 }
 
 h2 {
